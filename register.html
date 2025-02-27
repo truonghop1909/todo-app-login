@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="alert-list"></div>  
+    
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html" class="logo">Logo</a>
+        </div>
+        <div class="header__menu">
+            <ul>
+                <li>
+                    <a href="login.html" button-login>Đăng nhập</a>
+                </li>
+                <li>
+                    <a href="register.html" button-register>Đăng kí</a>
+                </li>
+                <li>
+                    <button button-logout>Đăng xuất</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1>Đăng kí</h1>
+
+        <form id="form-register" class="form">
+            <div class="form__group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"
+                required>
+            </div>
+
+            <div class="form__group">
+                <label for="password">Mật khẩu</label>
+                <input type="password" name="password" id="password"
+                required>
+            </div>
+
+            <button class="form__button">Đăng ký</button>
+        </form>
+    </main>
+
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+</html>
